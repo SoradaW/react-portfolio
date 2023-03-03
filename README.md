@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# React-Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Modern Development with React
 
-## Available Scripts
+???
 
-In the project directory, you can run:
+This project is to create a command-line application that dynamically generates a professional README.md file from a user's input. Check out this [README](https://github.com/SoradaW/Professional-README-Generator/blob/main/demoREADME.md) as an example.
+ 
+## Application's functionality
 
-### `npm start`
+* The porfolio built using following technologies:
+  * `React.js`
+  * Navigation using `React Router`
+  * Style with `React-Bootstrap`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Portfolio contain the following information:
+  * Name
+  * Links to my:
+    * GitHub profile
+    * LinkedIn page
+    * Email address
+    * Phone number (optional)
+    * CV (in PDF format)
+    * List of projects that contain following information:
+      * Project title
+      * Link to the deployed version
+      * Link to the GitHUb repository
+      * GIF or screenshot of the deployed application
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Component Content
 
-### `npm test`
+* App:
+  * Will be top-level component and render all necessary child components
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Header:
+  * Will be rendered across every page component of the site and contain a Navbar
 
-### `npm run build`
+* Home page:
+  * This should be a welcome landing page that contains:
+    * My Name
+    * A headshot of me (or an avatar)
+    * My brand statement
+    * Indication that this is my portfolio site
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Projects page:
+  * Render six instances of the Project component dynamically
+  * Should store the project details data in a JSON file and import it into my project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Project:
+  * Should be a reusable component that ingests JSON data as props and renders a single instance for each project
+  * Should utilize Router props to properly render the right project based on user selection
+  * Should render the following info:
+    * Project title
+    * Link to the deployed version
+    * Link to the GitHub repository
+    * GIF or screenshot of the deployed application
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Contact page:
+  * Will include contact information:
+    * Email address
+    * Link to a PDF version of my CV
+    * Link to my GitHub profile
+    * Link to my LinkedIn page
+    * Will have a contact form for handling events
 
-### `npm run eject`
+## Review
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* A walkthrough video demonstrating the functionality of the application
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Demo](/images/Demo-README-Generator.gif)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* A sample README.md file for a project repository generated using the application click [here](https://github.com/SoradaW/Professional-README-Generator/blob/main/demoREADME.md)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* Any questions please contact sorada.wright@gmail.com
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project under the terms of MIT License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+© 2023 | Sorada Wright | All Rights Reserved.
