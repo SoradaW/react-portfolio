@@ -22,7 +22,7 @@ function Navbar () {
         <button className={styles.nav-resume-btn}>Resume</button>
       </div>
     </nav>
-  )
-}
+  );
+};
 
 export default Navbar;
