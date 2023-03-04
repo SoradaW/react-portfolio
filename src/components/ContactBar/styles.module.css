@@ -1,4 +1,4 @@
-.contact-bar-wrapper {
+.contactbar_wrapper {
   width: 100%;
   position: fixed;
   bottom: 0;
@@ -6,7 +6,7 @@
   justify-content: space-between;
 }
 
-.contact-bar {
+.contactbar {
   width: 150px;
   display: flex;
   align-items: center;

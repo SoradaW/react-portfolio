@@ -1,8 +1,15 @@
-import './App.css';
+import Navbar from "./Components/Navbar";
+import ContactBar from "./Components/ContactBar";
+import Footer from "./Components/Footer";
+import "./App.css";
 
 function App() {
   return (
-    <h1>Hello World</h1>
+    <main className="main">
+      <Navbar />
+      <ContactBar />
+      <Footer />
+    </main>
   );
 }
 

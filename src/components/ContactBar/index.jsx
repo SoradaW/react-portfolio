@@ -6,8 +6,8 @@ import styles from "./styles.module.css";
 
 function ContactBar() {
 	return (
-		<div className={styles.contact-bar-wrapper}>
-			<div className={styles.contact-bar}>
+		<div className={styles.contactbar_wrapper}>
+			<div className={styles.contactbar}>
 				<a href="/" target="-blank" className={styles.icon} >
 					<LinkedInIcon  />
 				</a>
@@ -22,7 +22,7 @@ function ContactBar() {
 				</a>
 				<div className={styles.line}></div>
 			</div>
-			<div className={styles.contact-bar}>
+			<div className={styles.contactbar}>
 				<a href="mailto:sorada.wright@gmail.com" className={styles.email}>
 					sorada.wright@gmail.com
 				</a>
