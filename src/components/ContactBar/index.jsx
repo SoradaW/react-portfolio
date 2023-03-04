@@ -6,23 +6,23 @@ import styles from "./styles.module.css";
 
 function ContactBar() {
 	return (
-		<div className={styles.contactbar_wrapper}>
-			<div className={styles.contactbar}>
-				<a href="/" target="-blank" className={styles.icon} >
+		<div className={styles.contact_bar_wrapper}>
+			<div className={styles.contact_bar}>
+				<a href="/" target="_blank" className={styles.icon} >
 					<LinkedInIcon  />
 				</a>
-				<a href="/" target="-blank" className={styles.icon} >
+				<a href="/" target="_blank" className={styles.icon} >
 					<GitHubIcon  />
 				</a>
-				<a href="/" target="-blank" className={styles.icon} >
+				<a href="/" target="_blank" className={styles.icon} >
 					<FacebookIcon  />
 				</a>
-				<a href="/" target="-blank" className={styles.icon} >
+				<a href="/" target="_blank" className={styles.icon} >
 					<WhatsAppIcon  />
 				</a>
 				<div className={styles.line}></div>
 			</div>
-			<div className={styles.contactbar}>
+			<div className={styles.contact_bar}>
 				<a href="mailto:sorada.wright@gmail.com" className={styles.email}>
 					sorada.wright@gmail.com
 				</a>

@@ -1,4 +1,4 @@
-.nav-container {
+.nav_container {
   top: 0;
   left: 0;
   position: fixed;
@@ -12,38 +12,38 @@
   z-index: 100;
 }
 
-.nav-left {
+.nav_left {
   padding-left: 50px;
 }
 
-.nav-right {
+.nav_right {
   padding-right: 50px;
 }
 
-.nav-left > a {
+.nav_left > a {
   color: var(--green);
   font-size: var(--fz-xxl);
   font-weight: bold;
   font-family: var(--font-sans);
 }
 
-.nav-link {
+.nav_link {
   font-size: var(--fz-sm);
   color: var(--lightest-slate);
   cursor: pointer;
   margin-left: 26px;
 }
 
-.nav-link > span {
+.nav_link > span {
   color: var(--green);
   margin-right: 5px;
 }
 
-.nav-link:hover {
+.nav_link:hover {
   color: var(--green);
 }
 
-.nav-resume-btn {
+.nav_resume_btn {
   outline: none;
   font-size: var(--fz-xs);
   background: transparent;
@@ -55,6 +55,6 @@
   margin-left: 26px;
 }
 
-.nav-resume-btn:hover {
+.nav_resume_btn:hover {
   background: var(--green-tint);
 }
