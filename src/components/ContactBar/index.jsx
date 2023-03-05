@@ -8,16 +8,16 @@ function ContactBar() {
 	return (
 		<div className={styles.contact_bar_wrapper}>
 			<div className={styles.contact_bar}>
-				<a href="/" target="_blank" className={styles.icon} >
+				<a href="https://www.linkedin.com/in/sorada-wright-8985491a7/" target="_blank" className={styles.icon} >
 					<LinkedInIcon  />
 				</a>
-				<a href="/" target="_blank" className={styles.icon} >
+				<a href="https://github.com/SoradaW" target="_blank" className={styles.icon} >
 					<GitHubIcon  />
 				</a>
-				<a href="/" target="_blank" className={styles.icon} >
+				<a href="https://www.facebook.com/Sorada.Wright" target="_blank" className={styles.icon} >
 					<FacebookIcon  />
 				</a>
-				<a href="/" target="_blank" className={styles.icon} >
+				<a href="https://wa.link/16s1zc" target="_blank" className={styles.icon} >
 					<WhatsAppIcon  />
 				</a>
 				<div className={styles.line}></div>

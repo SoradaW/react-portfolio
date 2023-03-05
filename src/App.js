@@ -15,6 +15,7 @@ function App() {
         <Home />
         <About />
         <Work />
+        <Contact />
       </div>
 			<ContactBar />
 			<Footer />
