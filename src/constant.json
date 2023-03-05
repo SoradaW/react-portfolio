@@ -31,6 +31,22 @@
       "skills": ["ES6", "NodeJS"],
       "github": "https://github.com/SoradaW/Team-Profile-Generator",
       "link": "https://soradaw.github.io/Team-Profile-Generator/"
+    },
+    {
+      "title":"JavaScript Timed Quiz App",
+      "image": "./images/time_quiz.jpg",
+      "desc": "A timed coding quiz with multiple-choice questions. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code.",
+      "skills": ["JavaScript", "HTML5", "CSS3"],
+      "github": "https://github.com/SoradaW/Timed-Quiz",
+      "link": "https://soradaw.github.io/Timed-Quiz/"
+    },
+    {
+      "title":"Team Profile Generator",
+      "image": "./images/readme.jpg",
+      "desc": "This project is to create a command-line application that dynamically generates a professional README.md file from a user's input.",
+      "skills": ["ES6", "NodeJS"],
+      "github": "https://github.com/SoradaW/Professional-README-Generator",
+      "link": "https://github.com/SoradaW/Professional-README-Generator/blob/main/demoREADME.md"
     }
   ]
 }

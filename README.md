@@ -2,16 +2,13 @@
 
 ## Modern Development with React
 
-???
-
-This project is to create a command-line application that dynamically generates a professional README.md file from a user's input. Check out this [README](https://github.com/SoradaW/Professional-README-Generator/blob/main/demoREADME.md) as an example.
+This project is to portfolio site from scratch using React check out [HERE](https://github.com/SoradaW/Professional-README-Generator/blob/main/demoREADME.md)
  
 ## Application's functionality
 
 * The porfolio built using following technologies:
   * `React.js`
-  * Navigation using `React Router`
-  * Style with `React-Bootstrap`
+  * `CSS3`
 
 * Portfolio contain the following information:
   * Name
@@ -19,13 +16,13 @@ This project is to create a command-line application that dynamically generates 
     * GitHub profile
     * LinkedIn page
     * Email address
-    * Phone number (optional)
-    * CV (in PDF format)
+    * WhatsApp
+    * Resume
     * List of projects that contain following information:
       * Project title
       * Link to the deployed version
       * Link to the GitHUb repository
-      * GIF or screenshot of the deployed application
+      * Screenshot of the deployed application
 
 ## Component Content
 
@@ -33,12 +30,11 @@ This project is to create a command-line application that dynamically generates 
   * Will be top-level component and render all necessary child components
 
 * Header:
-  * Will be rendered across every page component of the site and contain a Navbar
+  * Will be rendered across whole page component 
 
 * Home page:
   * This should be a welcome landing page that contains:
     * My Name
-    * A headshot of me (or an avatar)
     * My brand statement
     * Indication that this is my portfolio site
 
@@ -53,23 +49,21 @@ This project is to create a command-line application that dynamically generates 
     * Project title
     * Link to the deployed version
     * Link to the GitHub repository
-    * GIF or screenshot of the deployed application
+    * Screenshot of the deployed application
 
-* Contact page:
+* Contact:
   * Will include contact information:
     * Email address
-    * Link to a PDF version of my CV
     * Link to my GitHub profile
     * Link to my LinkedIn page
-    * Will have a contact form for handling events
 
 ## Review
 
 * A walkthrough video demonstrating the functionality of the application
 
-![Demo](/images/Demo-README-Generator.gif)
+![Demo](./public/images/React_Portfolio.gif)
 
-* A sample README.md file for a project repository generated using the application click [here](https://github.com/SoradaW/Professional-README-Generator/blob/main/demoREADME.md)
+* Check live page [here](https://github.com/SoradaW/Professional-README-Generator/blob/main/demoREADME.md)
 
 * Any questions please contact sorada.wright@gmail.com
 
