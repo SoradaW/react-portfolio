@@ -32,10 +32,10 @@ function Work() {
 									))}
 								</div>
 								<div>
-									<a href="/" className={styles.link}>
+									<a href={project.github} target="__blank" className={styles.link}>
 										<GitHubIcon />
 									</a>
-									<a href="/" className={styles.link}>
+									<a href={project.link} target="__blank" className={styles.link}>
 										<OpenInNewIcon />
 									</a>
 								</div>
@@ -54,10 +54,10 @@ function Work() {
 									))}
 								</div>
 								<div>
-									<a href="/" className={styles.link}>
+									<a href={project.github} target="__blank" className={styles.link}>
 										<GitHubIcon />
 									</a>
-									<a href="/" className={styles.link}>
+									<a href={project.link} target="__blank" className={styles.link}>
 										<OpenInNewIcon />
 									</a>
 								</div>

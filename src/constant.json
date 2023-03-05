@@ -1,28 +1,28 @@
 {
-    "projects": [
-      {
-          "title":"Bootstrap Demo",
-          "image": "./images/Bootstrap.jpg",
-          "desc": "This repository demonstrate a portfolio layout using HTML, advance CSS and Bootstrap from scratch.",
-          "skills": ["Bootstrap", "CSS3", "HTML5"],
-          "github": "/",
-          "link": "https://soradaw.github.io/Bootstrap-Demo/"
-      },
-      {
-          "title":"Cocktail-O-Clock",
-          "image": "./images/cocktail.jpg",
-          "desc": "Cocktail-O-Clock is an dynamic interactive front-end application that seeks to inform the user about the cocktail of their choice, whilst adding a fun, entertaining element in the form a GIF.",
-          "skills": ["HTML5", "CSS3", "Bootstrap", "APIs"],
-          "github": "https://github.com/SoradaW/Cocktail-O-Clock",
-          "link": "https://josephnamihas.github.io/Cocktail-O-Clock/"
-      },
-      {
-        "title":"",
-        "image": "./images/project_2.png",
-        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        "skills": ["Bootstrap", "CSS3", "HTML5"],
-        "github": "/",
-        "link": "/"
+  "projects": [
+    {
+      "title":"Cocktail-O-Clock",
+      "image": "./images/cocktail.jpg",
+      "desc": "Cocktail-O-Clock is an dynamic interactive front-end application that seeks to inform the user about the cocktail of their choice, whilst adding a fun, entertaining element in the form a GIF.",
+      "skills": ["HTML5", "CSS3", "Bootstrap", "JavaScript", "APIs"],
+      "github": "https://github.com/SoradaW/Cocktail-O-Clock",
+      "link": "https://josephnamihas.github.io/Cocktail-O-Clock/"
+    },
+    {
+      "title":"Bootstrap Demo",
+      "image": "./images/Bootstrap.jpg",
+      "desc": "This repository demonstrate a portfolio layout using HTML, advance CSS and Bootstrap from scratch.",
+      "skills": ["Bootstrap", "CSS3", "HTML5"],
+      "github": "https://github.com/SoradaW/Bootstrap-Demo",
+      "link": "https://soradaw.github.io/Bootstrap-Demo/"
+    },
+    {
+      "title":"Professional README Generator",
+      "image": "./images/README_Generator.jpg",
+      "desc": "This project is to create a command-line application that dynamically generates a professional README.md file from a user's input.",
+      "skills": ["ES6", "NodeJS"],
+      "github": "https://github.com/SoradaW/Professional-README-Generator",
+      "link": "https://github.com/SoradaW/Professional-README-Generator/blob/main/demoREADME.md"
     }
   ]
 }
