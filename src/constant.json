@@ -3,26 +3,34 @@
     {
       "title":"Cocktail-O-Clock",
       "image": "./images/cocktail.jpg",
-      "desc": "Cocktail-O-Clock is an dynamic interactive front-end application that seeks to inform the user about the cocktail of their choice, whilst adding a fun, entertaining element in the form a GIF.",
+      "desc": "Cocktail-O-Clock is an dynamic interactive front-end application that seeks to inform the user about the cocktail of their choice, whilst adding a fun, entertaining element in the form of GIF.",
       "skills": ["HTML5", "CSS3", "Bootstrap", "JavaScript", "APIs"],
       "github": "https://github.com/SoradaW/Cocktail-O-Clock",
       "link": "https://josephnamihas.github.io/Cocktail-O-Clock/"
     },
     {
-      "title":"Bootstrap Demo",
-      "image": "./images/Bootstrap.jpg",
-      "desc": "This repository demonstrate a portfolio layout using HTML, advance CSS and Bootstrap from scratch.",
-      "skills": ["Bootstrap", "CSS3", "HTML5"],
-      "github": "https://github.com/SoradaW/Bootstrap-Demo",
-      "link": "https://soradaw.github.io/Bootstrap-Demo/"
+      "title":"JavaScript Portfolio",
+      "image": "./images/my_portfolio.jpg",
+      "desc": "This repository demonstrate a portfolio layout using JavaScript, HTML, advance CSS and Bootstrap from scratch.",
+      "skills": ["JavaScript", "Bootstrap", "CSS3", "HTML5"],
+      "github": "https://github.com/SoradaW/My-Portfolio",
+      "link": "https://soradaw.github.io/My-Portfolio/"
     },
     {
-      "title":"Professional README Generator",
-      "image": "./images/README_Generator.jpg",
-      "desc": "This project is to create a command-line application that dynamically generates a professional README.md file from a user's input.",
+      "title":"Weather Dashboard",
+      "image": "./images/weather_app.jpg",
+      "desc": "A weather dashboard application with search functionality to find current weather conditions and the future weather outlook for multiple cities.",
+      "skills": ["Server-Side APIs", "CSS3", "HTML5"],
+      "github": "https://github.com/SoradaW/Weather-Dashboard",
+      "link": "https://soradaw.github.io/Weather-Dashboard/"
+    },
+    {
+      "title":"Team Profile Generator",
+      "image": "./images/team.jpg",
+      "desc": "An Object-Oriented Programming application using Node command line that dynamically generates the team member profile HTML webpage, that displays summaries for each person from the user's input.",
       "skills": ["ES6", "NodeJS"],
-      "github": "https://github.com/SoradaW/Professional-README-Generator",
-      "link": "https://github.com/SoradaW/Professional-README-Generator/blob/main/demoREADME.md"
+      "github": "https://github.com/SoradaW/Team-Profile-Generator",
+      "link": "https://soradaw.github.io/Team-Profile-Generator/"
     }
   ]
 }

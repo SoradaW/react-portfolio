@@ -13,7 +13,6 @@
 }
 
 .heading {
-  font-family: var(--font-sans);
   font-size: var(--fz-heading);
   color: var(--lightest-slate);
   font-weight: 600;

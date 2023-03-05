@@ -5,7 +5,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: var(--font-sans);
   position: relative;
 }
 
@@ -39,6 +38,7 @@
   width: 150px;
   cursor: pointer;
   margin-top: 20px;
+  font-family: var(--font-mono);
 }
 
 .btn:hover {

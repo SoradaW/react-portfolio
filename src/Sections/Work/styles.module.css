@@ -19,7 +19,7 @@
 
 .img{
   width: 600px;
-  height: 300px;
+  height: 350px;
   object-fit: cover;
   border-radius: 5px;
 }
@@ -33,7 +33,6 @@
 
 .heading {
   color: var(--lightest-slate);
-  font-family: var(--font-sans);
   font-size: var(--fz-heading);
   font-weight: 600;
   cursor: pointer;
@@ -47,7 +46,6 @@
   background-color: var(--light-navy);
   box-shadow: 0 10px 30px -15px var(--navy-shadow);
   color: var(--light-slate);
-  font-family: var(--font-sans);
   line-height: 20px;
   font-size: var(--fz-md);
   padding: 20px;

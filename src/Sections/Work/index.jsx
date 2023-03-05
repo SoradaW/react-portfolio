@@ -22,7 +22,7 @@ function Work() {
 								</a>
 							</div>
 							<div className={styles.right}>
-								<a href={project.link} className={styles.heading}>
+								<a href={project.link} target="__blank" className={styles.heading}>
 									{project.title}
 								</a>
 								<p className={styles.desc}>{project.desc}</p>
@@ -44,7 +44,7 @@ function Work() {
 					) : (
 						<div className={styles.project}>
 							<div className={styles.left}>
-								<a href={project.link} className={styles.heading}>
+								<a href={project.link} target="__blank" className={styles.heading}>
 									{project.title}
 								</a>
 								<p className={styles.desc}>{project.desc}</p>

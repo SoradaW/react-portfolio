@@ -10,9 +10,9 @@
 }
 
 .desc {
-    font-family: var(--font-sans);
     color: var(--slate);
-    font-size: var(--fz-lg);
+    font-size: var(--fz-xxl);
+    margin-left: 10%;
 }
 
 .right {
