@@ -16,7 +16,6 @@ This project is to portfolio site from scratch using React check out [HERE](http
     * GitHub profile
     * LinkedIn page
     * Email address
-    * WhatsApp
     * Resume
     * List of projects that contain following information:
       * Project title
