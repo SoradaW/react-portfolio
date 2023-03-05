@@ -2,7 +2,7 @@
 
 ## Modern Development with React
 
-This project is to portfolio site from scratch using React check out [HERE](https://github.com/SoradaW/Professional-README-Generator/blob/main/demoREADME.md)
+This project is to portfolio site from scratch using React check out [HERE](https://soradaw.github.io/react-portfolio/)
  
 ## Application's functionality
 
@@ -63,7 +63,7 @@ This project is to portfolio site from scratch using React check out [HERE](http
 
 ![Demo](./public/images/React_Portfolio.gif)
 
-* Check live page [here](https://github.com/SoradaW/Professional-README-Generator/blob/main/demoREADME.md)
+* Check live page [here](https://soradaw.github.io/react-portfolio/)
 
 * Any questions please contact sorada.wright@gmail.com
 
