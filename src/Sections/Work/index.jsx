@@ -1,4 +1,4 @@
-import Heading from "../../Components/Heading";
+import Heading from "../../components/Heading";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 import constant from "../../constant.json";
