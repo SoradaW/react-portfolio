@@ -2,9 +2,9 @@ import Home from "./Sections/Home";
 import About from "./Sections/About";
 import Work from "./Sections/Work";
 import Contact from "./Sections/Contact";
-import Navbar from "./Components/Navbar";
-import ContactBar from "./Components/ContactBar";
-import Footer from "./Components/Footer";
+import Navbar from "./components/Navbar";
+import ContactBar from "./components/ContactBar";
+import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
